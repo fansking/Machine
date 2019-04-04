@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>70318ce5-994f-479c-969d-b68e1c6f9c3a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>trees.py</StartupFile>
+    <StartupFile>bayes.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bayes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Machine.py" />
     <Compile Include="trees.py">
       <SubType>Code</SubType>
